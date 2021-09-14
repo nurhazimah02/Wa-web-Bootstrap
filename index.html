@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = 
+      "bootstrap/img/WA ICON.ico" 
+              type = "image/x-icon">
+        <title>Whatsapp</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+        <div class="container-fluid">
+          <div class="row">
+             <div class="col-3">
+                <div class="row wa-navbar">
+                     <div class="col-8">
+                        <img src="bootstrap/img/Hazimah.jpeg" class="rounded-circle"/>
+                     </div>
+                     <div class="col-2">
+                        <i class="large material-icons wa-icon">chat</i>
+                     </div>
+                     <div class="col-2">            
+                      <div class="dropdown">
+                        <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="large material-icons wa-icon">more_vert</i>
+                        </a>
+                                        
+                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                           <a class="dropdown-item" href="#">Grup Baru</a>
+                           <a class="dropdown-item" href="#">Buat Forum</a>
+                           <a class="dropdown-item" href="#">Diarsipkan</a>
+                           <a class="dropdown-item" href="#">Berbintang</a>
+                           <a class="dropdown-item" href="#">Setelan</a>
+                           <a class="dropdown-item" href="#">Keluar</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      <!-- Chat  -->
+                              <div class="row">
+                                <div class="col-12 wa-contatos">
+                                    <input class="form-control wa-input" placeholder="Cari atau mulai chat baru"/>
+                                </div>
+                            </div>
+                            <div class="row wa-item-chat" onClick="abrirChat()">
+                                <div class="col-2">
+                                    <img src="bootstrap/img/love.jpeg" class="rounded-circle"/>
+                                </div>
+                                <div class="col-8">
+                                    <b>Keluarga Harahap</b><br/>
+                                    <p class="wa-preview-message">Jaga Kesehatannya semua</p>
+                                </div>
+                                <div class="col-2" style="text-align: right">
+                                    <span>13:50</span>
+                                    <span class="badge badge-pill wa-badge">1</span>
+                                </div>
+                            </div>
+                            <hr/>
+            
+                            <div class="row wa-item-chat" onClick="abrirChat()">
+                                <div class="col-2">
+                                    <img src="bootstrap/img/grup si.jpeg" class="rounded-circle"/>
+                                </div>
+                                <div class="col-8">
+                                    <b>Sistem Informasi 2019 </b><br/>
+                                    <p class="wa-preview-message">Tugas Pemrograman Web</p>
+                                </div>
+                                <div class="col-2" style="text-align: right">
+                                    <span>12:00</span>
+                                    <span class="badge badge-pill wa-badge">20</span>
+                                </div>
+                            </div>
+                            <hr/>
+
+                              <div class="row wa-item-chat" onClick="abrirChat()">
+                                <div class="col-2">
+                                    <img src="bootstrap/img/grup cobat.jpeg" class="rounded-circle"/>
+                                </div>
+                                <div class="col-8">
+                                    <b>Cobat until Jannah</b><br/>
+                                    <p class="wa-preview-message">Melalak la</p>
+                                </div>
+                                <div class="col-2" style="text-align: right">
+                                    <span>11:25</span>
+                                    <span class="badge badge-pill wa-badge">4</span>
+                                </div>
+                            </div>
+                            <hr/>
+
+                            <div class="row wa-item-chat" onClick="abrirChat()">
+                              <div class="col-2">
+                                  <img src="bootstrap/img/1.jpeg" class="rounded-circle"/>
+                              </div>
+                              <div class="col-8">
+                                  <b>HNI SEMARANG  </b><br/>
+                                  <p class="wa-preview-message">Jangan sampai ketinggalan..</p>
+                              </div>
+                              <div class="col-2" style="text-align: right">
+                                  <span>12:00</span>
+                                  <span class="badge badge-pill wa-badge">20</span>
+                              </div>
+                          </div>
+                          <hr/>
+                            <div class="row wa-item-chat" onClick="abrirChat()">
+                              <div class="col-2">
+                                  <img src="bootstrap/img/2.jpeg" class="rounded-circle"/>
+                              </div>
+                              <div class="col-8">
+                                  <b>HIMA ILKOM</b><br/>
+                                  <p class="wa-preview-message">Yuh Join! Sekarang Banget</p>
+                              </div>
+                              <div class="col-2" style="text-align: right">
+                                  <span>11:25</span>
+                                  <span class="badge badge-pill wa-badge">4</span>
+                              </div>
+                          </div>
+                          <hr/>
+                          <div class="row wa-item-chat" onClick="abrirChat()">
+                            <div class="col-2">
+                                <img src="bootstrap/img/3.jpeg" class="rounded-circle"/>
+                            </div>
+                            <div class="col-8">
+                                <b>CICS UKM REMO</b><br/>
+                                <p class="wa-preview-message">Bersama...Kita Pasti Bisa</p>
+                            </div>
+                            <div class="col-2" style="text-align: right">
+                                <span>11:25</span>
+                                <span class="badge badge-pill wa-badge">4</span>
+                            </div>
+                        </div>
+                        <hr/>
+            
+                        </div>
+                        <div class="col-9">
+                            <div class="wa-introducao">
+                                <div class="offset-3 wa-card-introducao">
+                                    <br/><br/><br/>
+                                    <img src="bootstrap/img/introducao.jpg"/>
+                                    <br/><br/>
+                                    <h1>Pastikan telepon Anda terhubung ke Internet</h1><br/>
+                                    <p>WhatsApp melakukan koneksi ke telepon Anda untuk menyingkronkan pesan. Untuk mengurangi penggunaan data,Sambungkan telepon Anda ke Wi-Fi.</p>
+                                    <hr/>
+                                    <p><span style="font-size: 18px;" class="fa fa-laptop"></span> Lakukan panggilan dari dekstop dengan WhatsApp untuk Windows. <a href="https://www.whatsapp.com/download" target="_blank">Dapatkan disini</a>.</p>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+            
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
